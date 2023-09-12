@@ -1,0 +1,154 @@
+[
+  {
+    "name": "accent chair",
+    "price": 25,
+    "company": "marcos",
+    "rating": 4,
+    "img" : "https://m.media-amazon.com/images/I/71q32o2in-L.jpg"
+  },
+  {
+    "name": "albany sectional",
+    "price": 109,
+    "company": "liddy",
+    "rating": 5,
+    "img" : "https://d12mivgeuoigbq.cloudfront.net/magento-media/catalog/product/d/6/d67b61d2-389c-4524-a985-534fbfbe9f8f.jpg?w=640"
+  },
+  {
+    "name": "albany table",
+    "price": 309,
+    "company": "liddy",
+    "rating": 4.9,
+    "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQst3zv5tsfoWQuplNh1FFcAQrDg5vYAxXFGNEnahYr6A&s"
+  },
+  {
+    "name": "armchair",
+    "price": 125,
+    "company": "marcos",
+    "rating": 4.8,
+    "img" : "https://img.edilportale.com/product-thumbs/h_NEUILLY-LOUNGE-Bonaldo-640026-relaab9a150.jpg"
+  },
+  {
+    "name": "bar stool",
+    "price": 40,
+    "company": "liddy",
+    "rating": 4.6,
+    "img" : "https://assets.wfcdn.com/im/32156318/resize-h755-w755%5Ecompr-r85/2355/235538890/Drees+Swivel+Counter+%26+Bar+Stool.jpg"
+  },
+  {
+    "name": "dining table",
+    "price": 42,
+    "company": "ikea",
+    "rating": 4.55,
+    "img" : "https://m.media-amazon.com/images/I/61wlCkStj6L._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "name": "emperor bed",
+    "price": 23,
+    "company": "ikea",
+    "img" : "https://www.theenglishbedcompany.co.uk/pub/media/catalog/product/cache/d43bd2d3b741da092ef83404c6b3eba1/a/m/ambassador_20bed_20main_preview_1__2.jpeg"
+  },
+  {
+    "name": "entertainment center",
+    "price": 59,
+    "featured": true,
+    "company": "caressa",
+    "img" : "https://ashleyfurniture.scene7.com/is/image/AshleyFurniture/APG-W446-4P-10X8-CROP?$AFHS-PDP-Zoomed$"
+  },
+  {
+    "name": "high-back bench",
+    "price": 39,
+    "featured": true,
+    "company": "ikea",
+    "img" : "https://m.media-amazon.com/images/I/71cCocG6XwL._AA360_AC_QL70_.jpg"
+  },
+
+  {
+    "name": "leather sofa",
+    "price": 99,
+    "company": "caressa",
+    "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBrwWL-2lXYiV5Mh_ITX1Rb5XRuUYlNRX_B5pTM6o&s"
+  },
+  {
+    "name": "modern bookshelf",
+    "price": 31,
+    "featured": true,
+    "company": "caressa",
+    "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWcjT-uFjMEqjWvXhW2D8-EomAFIPO-J44Xg3NEufL&s"
+  },
+  {
+    "name": "modern poster",
+    "price": 30,
+    "company": "liddy",
+    "img" : "https://productimages.hepsiburada.net/s/111/375-500/110000057948989.jpg"
+  },
+  {
+    "name": "shelf",
+    "price": 30,
+    "company": "ikea",
+    "img" : "data:image/jpeg;base64,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"
+  },
+  {
+    "name": "simple chair",
+    "price": 109,
+    "company": "liddy",
+    "img" : "https://i.ytimg.com/vi/Uemc9z5O4MM/maxresdefault.jpg"
+  },
+  {
+    "name": "sofa set",
+    "price": 129,
+    "company": "marcos",
+    "img" : "https://shop.gkwretail.com/cdn/shop/products/Designer-Sofa-Set-in-Sky-Blue-And-White_4.jpg?v=1616065697"
+  },
+  {
+    "name": "suede armchair",
+    "price": 15,
+    "company": "caressa",
+    "img" : "https://m.media-amazon.com/images/I/51j1DcxRdKL._AC_.jpg"
+  },
+  {
+    "name": "utopia sofa",
+    "price": 79,
+    "featured": true,
+    "company": "liddy",
+    "img" : "https://i.pinimg.com/originals/6d/40/75/6d4075e5a88a8cb015755470b0ec3061.jpg"
+  },
+  {
+    "name": "vase table",
+    "price": 120,
+    "featured": true,
+    "company": "marcos",
+    "img" : "https://assets.wfcdn.com/im/85975202/compr-r85/5064/50648960/coss-glass-table-vase.jpg"
+  },
+  {
+    "name": "wooden bed",
+    "price": 25,
+    "company": "ikea",
+    "img" : "https://aarsunwoods.com/wp-content/uploads/2020/03/Antique-Style-Wooden-Bed-UH-BED-0001-jpg.webp"
+  },
+  {
+    "name": "wooden desk",
+    "price": 15,
+    "company": "ikea",
+    "img" : "https://www.amartfurniture.com.au/dw/image/v2/BDDT_PRD/on/demandware.static/-/Sites-amart-master-catalog/default/dw5da2e2f3/images/hi-res/405910001_001_22112022.jpg?sw=1610"
+  },
+  {
+    "name": "wooden desk",
+    "price": 40,
+    "company": "ikea",
+    "img" : "https://i.ytimg.com/vi/-pfTroYWnuQ/maxresdefault.jpg"
+  },
+  {
+    "name": "wooden table",
+    "price": 23,
+    "featured": true,
+    "company": "caressa",
+    "img" : "https://www.decornation.in/wp-content/uploads/2020/06/solid-wood-computer-table.jpg"
+  },
+  {
+    "name": "a first wooden table",
+    "price": 23,
+    "featured": true,
+    "company": "caressa",
+    "img" : "https://upload.wikimedia.org/wikipedia/commons/8/8e/Beautiful_Baroque_gilded_table_from_the_Cinquantenaire_Museum_%28Bruxelles%2C_Belgium%29.jpg"
+  }
+]

@@ -1,0 +1,113 @@
+
+:root {
+    --body : white;
+}
+
+:root:has(body.night) {
+    --body : black;
+}
+
+body {
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+
+    header:not(main header){
+        grid-column: 1/-1;
+        grid-row: 1/2;
+        background-color: aqua;
+        text-align: center;
+    }
+
+    aside{
+        grid-column: 1/2;
+        grid-row: 2/-1;
+        background-color: rgb(3, 121, 121);
+
+        padding: 1rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 1rem;
+
+        .form-group {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+
+            .wrapper {
+                position: relative;
+
+                .priceBox {
+                    visibility: hidden;
+                    position: absolute;
+                    top: -100%;
+                    left: 50%;
+                    transform: translate(-50%,0);
+                    background-color: white;
+                    border: 1px solid;
+                    padding: 0.4rem;
+
+                    &.visible{
+                        visibility: visible;
+                    }
+                }
+            }
+        }
+    }
+
+    main{
+        grid-column: 2/-1;
+        grid-row: 2/-1;
+        background-color: rgb(147, 245, 245);
+
+        header {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 1rem;
+
+            padding: 0.2rem 1rem;
+
+            .form-group {
+                margin-inline-start: auto;
+            }
+        }
+
+        section {
+            padding: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+
+            div.product {
+                box-shadow: 0 0 5px 1px black;
+                flex-grow: 1;
+                flex-basis: 400px;
+                max-width: 400px;
+
+                picture {
+
+                    figure {
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    figcaption {
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 0.2rem 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

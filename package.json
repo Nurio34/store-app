@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "mongoose": "^7.5.0",
+    "nodemon": "^3.0.1"
+  },
+  "name": "store-api---again",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
